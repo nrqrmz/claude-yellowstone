@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes | Yellowstone Tribute</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-y">Y</span>ELLOWSTONE
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="characters.html" class="nav-link active">Personajes</a></li>
+                <li class="nav-item"><a href="index.html#synopsis" class="nav-link">Sinopsis</a></li>
+                <li class="nav-item"><a href="index.html#seasons" class="nav-link">Temporadas</a></li>
+                <li class="nav-item"><a href="index.html#gallery" class="nav-link">Galería</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="page-header-content">
+            <span class="page-tag">El Cast</span>
+            <h1>Personajes</h1>
+            <p>Conoce a los protagonistas de la saga Yellowstone</p>
+        </div>
+    </header>
+
+    <!-- Characters Filter -->
+    <section class="characters-section">
+        <div class="container">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="dutton">Familia Dutton</button>
+                <button class="filter-btn" data-filter="ranch">Rancho</button>
+                <button class="filter-btn" data-filter="antagonist">Antagonistas</button>
+            </div>
+
+            <!-- Dutton Family -->
+            <div class="characters-group">
+                <h2 class="group-title">La Familia Dutton</h2>
+                <div class="characters-grid">
+                    <a href="characters/john-dutton.html" class="character-card-full" data-category="dutton">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #2c1810, #4a2c2a);">
+                                <span class="placeholder-initial">JD</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">Patriarca</span>
+                            <h3 class="character-name">John Dutton</h3>
+                            <p class="character-actor">Kevin Costner</p>
+                            <p class="character-desc">Dueño del rancho Yellowstone Dutton y patriarca de la familia. Ex veterano de Vietnam con un código moral complejo.</p>
+                        </div>
+                    </a>
+
+                    <a href="characters/beth-dutton.html" class="character-card-full" data-category="dutton">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #1a1a2e, #4a3f5c);">
+                                <span class="placeholder-initial">BD</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">La Hija</span>
+                            <h3 class="character-name">Beth Dutton</h3>
+                            <p class="character-actor">Kelly Reilly</p>
+                            <p class="character-desc">Financiera despiadada y leal defensora de su familia. Conocida por su lengua afilada y personalidad feroz.</p>
+                        </div>
+                    </a>
+
+                    <a href="characters/kayce-dutton.html" class="character-card-full" data-category="dutton">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #1e3a2f, #2d5a4a);">
+                                <span class="placeholder-initial">KD</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">El Hijo Menor</span>
+                            <h3 class="character-name">Kayce Dutton</h3>
+                            <p class="character-actor">Luke Grimes</p>
+                            <p class="character-desc">Ex Navy SEAL dividido entre su lealtad a la familia y su vida con su esposa Monica de la reserva Broken Rock.</p>
+                        </div>
+                    </a>
+
+                    <a href="characters/jamie-dutton.html" class="character-card-full" data-category="dutton">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #2c2c3e, #3d3d5c);">
+                                <span class="placeholder-initial">JmD</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">El Hijo Adoptivo</span>
+                            <h3 class="character-name">Jamie Dutton</h3>
+                            <p class="character-actor">Wes Bentley</p>
+                            <p class="character-desc">Abogado y político con una relación complicada con su familia. Busca constantemente la aprobación de John.</p>
+                        </div>
+                    </a>
+
+                    <a href="characters/lee-dutton.html" class="character-card-full" data-category="dutton">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #3e2723, #5d4037);">
+                                <span class="placeholder-initial">LD</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">El Primogénito</span>
+                            <h3 class="character-name">Lee Dutton</h3>
+                            <p class="character-actor">Dave Annable</p>
+                            <p class="character-desc">El hijo mayor de John. Su destino trágico en la primera temporada cambia el rumbo de la familia para siempre.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Ranch Hands -->
+            <div class="characters-group">
+                <h2 class="group-title">El Rancho</h2>
+                <div class="characters-grid">
+                    <a href="characters/rip-wheeler.html" class="character-card-full" data-category="ranch">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #1a1a1a, #2d2d2d);">
+                                <span class="placeholder-initial">RW</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">Capataz</span>
+                            <h3 class="character-name">Rip Wheeler</h3>
+                            <p class="character-actor">Cole Hauser</p>
+                            <p class="character-desc">Mano derecha de John y el amor de Beth. Fieramente leal, hace lo que sea necesario para proteger el rancho.</p>
+                        </div>
+                    </a>
+
+                    <a href="characters/lloyd-pierce.html" class="character-card-full" data-category="ranch">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #4e342e, #6d4c41);">
+                                <span class="placeholder-initial">LP</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">Vaquero Veterano</span>
+                            <h3 class="character-name">Lloyd Pierce</h3>
+                            <p class="character-actor">Forrie J. Smith</p>
+                            <p class="character-desc">El vaquero más experimentado del rancho. Mentor de los nuevos y guardián de las tradiciones del oeste.</p>
+                        </div>
+                    </a>
+
+                    <a href="characters/monica-dutton.html" class="character-card-full" data-category="ranch">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #004d40, #00796b);">
+                                <span class="placeholder-initial">MD</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">Esposa de Kayce</span>
+                            <h3 class="character-name">Monica Dutton</h3>
+                            <p class="character-actor">Kelsey Asbille</p>
+                            <p class="character-desc">Miembro de la tribu Broken Rock y profesora. Lucha por mantener su identidad mientras navega la vida con los Dutton.</p>
+                        </div>
+                    </a>
+
+                    <a href="characters/teeter.html" class="character-card-full" data-category="ranch">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #bf360c, #e64a19);">
+                                <span class="placeholder-initial">T</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">Vaquera</span>
+                            <h3 class="character-name">Teeter</h3>
+                            <p class="character-actor">Jennifer Landon</p>
+                            <p class="character-desc">Vaquera texana con acento único. Valiente y leal, se gana su lugar en el rancho con trabajo duro.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Antagonists -->
+            <div class="characters-group">
+                <h2 class="group-title">Antagonistas</h2>
+                <div class="characters-grid">
+                    <a href="characters/thomas-rainwater.html" class="character-card-full" data-category="antagonist">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #263238, #455a64);">
+                                <span class="placeholder-initial">TR</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">Jefe Tribal</span>
+                            <h3 class="character-name">Thomas Rainwater</h3>
+                            <p class="character-actor">Gil Birmingham</p>
+                            <p class="character-desc">Jefe de la reserva Broken Rock. Un rival inteligente que busca recuperar tierras ancestrales por medios legales.</p>
+                        </div>
+                    </a>
+
+                    <a href="characters/dan-jenkins.html" class="character-card-full" data-category="antagonist">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #1b5e20, #388e3c);">
+                                <span class="placeholder-initial">DJ</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">Desarrollador</span>
+                            <h3 class="character-name">Dan Jenkins</h3>
+                            <p class="character-actor">Danny Huston</p>
+                            <p class="character-desc">Desarrollador inmobiliario de California. Su visión de modernizar Montana lo pone en conflicto directo con John.</p>
+                        </div>
+                    </a>
+
+                    <a href="characters/caroline-warner.html" class="character-card-full" data-category="antagonist">
+                        <div class="card-image-wrapper">
+                            <div class="image-placeholder-full" style="background: linear-gradient(135deg, #4a148c, #7b1fa2);">
+                                <span class="placeholder-initial">CW</span>
+                            </div>
+                            <div class="card-overlay">
+                                <span class="view-profile">Ver Perfil Completo</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="character-role">CEO</span>
+                            <h3 class="character-name">Caroline Warner</h3>
+                            <p class="character-actor">Jacki Weaver</p>
+                            <p class="character-desc">CEO de Market Equities. Una adversaria formidable que ve a Montana como su próxima gran inversión.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-y">Y</span>ELLOWSTONE
+                    <p>Página tributo creada por fans para fans.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="characters.html">Personajes</a></li>
+                        <li><a href="index.html#synopsis">Sinopsis</a></li>
+                        <li><a href="index.html#seasons">Temporadas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Personajes</h4>
+                    <ul>
+                        <li><a href="characters/john-dutton.html">John Dutton</a></li>
+                        <li><a href="characters/beth-dutton.html">Beth Dutton</a></li>
+                        <li><a href="characters/kayce-dutton.html">Kayce Dutton</a></li>
+                        <li><a href="characters/rip-wheeler.html">Rip Wheeler</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Yellowstone Tribute. Esta es una página de fans no oficial.</p>
+                <p>Yellowstone es propiedad de Paramount Network y sus creadores.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
